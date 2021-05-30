@@ -389,16 +389,16 @@ export default function Footer({ ...props }) {
         <Column>
           <Title>Community</Title>
           <FooterLink tertiary href={gitHub.repo}>
-            <Icon icon="github" /> GitHub
+            <Icon icon="github" /><p>GitHub</p>
           </FooterLink>
           <FooterLink tertiary href={twitter} rel="me">
-            <Icon icon="twitter" /> Twitter
+            <Icon icon="twitter" /><p> Twitter</p>
           </FooterLink>
           <FooterLink tertiary href={chat}>
-            <Icon icon="discord" /> Discord chat
+            <Icon icon="discord" /> <p>Discord chat</p>
           </FooterLink>
           <FooterLink tertiary href={youtube}>
-            <Icon icon="youtube" /> Youtube
+            <Icon icon="youtube" /> <p>Youtube</p>
           </FooterLink>
         </Column>
         <Subscribe>
