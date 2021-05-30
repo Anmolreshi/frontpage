@@ -131,7 +131,27 @@ const Upper = styled.div`
     flex-direction: row;
   }
 `;
+const FooterLink=styled.div`
+p{
+font-size:14px;
+display: inline-block;
 
+&:after {
+        content: "";
+        display: block;
+        width: 0;
+        height: 2px;
+        background: #000;
+        transition: width 0.3s;
+      }
+      
+      &:hover::after {
+        width: 100%;
+        transition: width 0.3s;
+      }
+      
+}
+`;
 const LogotypeWrapper = styled(Link)`
   margin-bottom: 1rem;
   display: block;
